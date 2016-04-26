@@ -1,0 +1,7 @@
+applications:
+- name: Greeter
+  command: node bin/www
+  instances: 1
+  memory: 32M
+  buildpack: nodejs_buildpack
+  host: greeter-mazda
